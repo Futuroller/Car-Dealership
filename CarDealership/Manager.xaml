@@ -1,0 +1,66 @@
+﻿<Window x:Class="CarDealership.Manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarDealership"
+        mc:Ignorable="d"
+                Title="Менеджер" Height="520" Width="800" Background="White">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.ColumnSpan="2">
+            <Rectangle Height="80" VerticalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="3">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#E74C3C" Offset="0.0" />
+                        <GradientStop Color="#2C3E50" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Label Content="Менеджер" Foreground="White" FontSize="30" FontFamily="Century Gothic" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Image Source="Resources/Logo.png" Width="60" Height="60" Margin="20,10,0,10" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left"></Image>
+            <Label x:Name="FILabel" Content="Имя фамилия" Foreground="White" FontSize="20" FontFamily="Century Gothic" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0"/>
+        </Grid>
+
+
+        <Button x:Name="OrdersBtn" Grid.Column="0" Content="Заказы" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="24" FontFamily="Century Gothic" Height="60px" Width="300px"
+                Grid.Row="1" Click="OrdersBtn_Click"/>
+
+        <Button x:Name="CarsBtn" Grid.Column="1" Content="Автомобили" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="24" FontFamily="Century Gothic" Height="60px" Width="300px"
+                Grid.Row="1" Click="CarsBtn_Click"/>
+
+        <Button x:Name="ClientsBtn" Grid.Column="0" Content="Клиенты" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                VerticalAlignment="Top"
+                FontSize="24" FontFamily="Century Gothic" Height="60px" Width="300px"
+                Grid.Row="2" Click="ClientsBtn_Click"/>
+
+        <Button x:Name="PopularModelsBtn" Grid.Column="1" Content="Популярные модели" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                VerticalAlignment="Top"
+                FontSize="24" FontFamily="Century Gothic" Height="60px" Width="300px"
+                Grid.Row="2" Click="PopularModelsBtn_Click"/>
+
+        <Button x:Name="BackButton" Grid.Column="0" Content="Назад" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left"
+                FontSize="24" FontFamily="Century Gothic" Height="50px" Width="200px" Margin="30,0,0,20"
+                Grid.Row="4" VerticalAlignment="Bottom" Click="BackButton_Click"/>
+    </Grid>
+</Window>

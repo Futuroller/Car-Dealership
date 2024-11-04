@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user100_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="iiColors">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="iiCars" Relationship="user100_dbModel.FK_iiCars_iiColors" FromRole="iiColors" ToRole="iiCars" />
+  </EntityType>
+  <EntityType Name="iiMakes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="make" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="iiModels" Relationship="user100_dbModel.FK_iiModels_iiMakes" FromRole="iiMakes" ToRole="iiModels" />
+  </EntityType>
+  <EntityType Name="iiPrestige">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="iiUsers" Relationship="Self.FK_iiUsers_iiPrestige" FromRole="iiPrestige" ToRole="iiUsers" />
+  </EntityType>
+  <EntityType Name="iiRoles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="iiUsers" Relationship="Self.FK_iiUsers_iiRoles" FromRole="iiRoles" ToRole="iiUsers" />
+  </EntityType>
+  <EntityType Name="iiStatus_car">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="iiCars" Relationship="user100_dbModel.FK_iiCars_iiStatus_car" FromRole="iiStatus_car" ToRole="iiCars" />
+  </EntityType>
+  <EntityType Name="iiStatus_order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="iiOrders" Relationship="user100_dbModel.FK_iiOrders_iiStatus_order" FromRole="iiStatus_order" ToRole="iiOrders" />
+  </EntityType>
+  <EntityType Name="iiUsers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_prestige" Type="Int32" />
+    <Property Name="id_role" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="iiPrestige" Relationship="Self.FK_iiUsers_iiPrestige" FromRole="iiUsers" ToRole="iiPrestige" />
+    <NavigationProperty Name="iiRoles" Relationship="Self.FK_iiUsers_iiRoles" FromRole="iiUsers" ToRole="iiRoles" />
+    <NavigationProperty Name="iiOrders" Relationship="user100_dbModel.FK_iiOrders_iiUsers" FromRole="iiUsers" ToRole="iiOrders" />
+    <NavigationProperty Name="iiOrders1" Relationship="user100_dbModel.FK_iiOrders_iiUsers1" FromRole="iiUsers" ToRole="iiOrders" />
+  </EntityType>
+  <Association Name="FK_iiUsers_iiPrestige">
+    <End Role="iiPrestige" Type="Self.iiPrestige" Multiplicity="0..1" />
+    <End Role="iiUsers" Type="Self.iiUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiPrestige">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiUsers">
+        <PropertyRef Name="id_prestige" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiUsers_iiRoles">
+    <End Role="iiRoles" Type="Self.iiRoles" Multiplicity="1" />
+    <End Role="iiUsers" Type="Self.iiUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiRoles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiUsers">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="user100_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="iiColors" EntityType="Self.iiColors" />
+    <EntitySet Name="iiMakes" EntityType="Self.iiMakes" />
+    <EntitySet Name="iiPrestige" EntityType="Self.iiPrestige" />
+    <EntitySet Name="iiRoles" EntityType="Self.iiRoles" />
+    <EntitySet Name="iiStatus_car" EntityType="Self.iiStatus_car" />
+    <EntitySet Name="iiStatus_order" EntityType="Self.iiStatus_order" />
+    <EntitySet Name="iiUsers" EntityType="Self.iiUsers" />
+    <AssociationSet Name="FK_iiUsers_iiPrestige" Association="Self.FK_iiUsers_iiPrestige">
+      <End Role="iiPrestige" EntitySet="iiPrestige" />
+      <End Role="iiUsers" EntitySet="iiUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiUsers_iiRoles" Association="Self.FK_iiUsers_iiRoles">
+      <End Role="iiRoles" EntitySet="iiRoles" />
+      <End Role="iiUsers" EntitySet="iiUsers" />
+    </AssociationSet>
+    <EntitySet Name="iiCars" EntityType="user100_dbModel.iiCars" />
+    <AssociationSet Name="FK_iiCars_iiColors" Association="user100_dbModel.FK_iiCars_iiColors">
+      <End Role="iiColors" EntitySet="iiColors" />
+      <End Role="iiCars" EntitySet="iiCars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiCars_iiStatus_car" Association="user100_dbModel.FK_iiCars_iiStatus_car">
+      <End Role="iiStatus_car" EntitySet="iiStatus_car" />
+      <End Role="iiCars" EntitySet="iiCars" />
+    </AssociationSet>
+    <EntitySet Name="iiModels" EntityType="user100_dbModel.iiModels" />
+    <AssociationSet Name="FK_iiCars_iiModels1" Association="user100_dbModel.FK_iiCars_iiModels1">
+      <End Role="iiModels" EntitySet="iiModels" />
+      <End Role="iiCars" EntitySet="iiCars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiModels_iiMakes" Association="user100_dbModel.FK_iiModels_iiMakes">
+      <End Role="iiMakes" EntitySet="iiMakes" />
+      <End Role="iiModels" EntitySet="iiModels" />
+    </AssociationSet>
+    <EntitySet Name="iiOrders" EntityType="user100_dbModel.iiOrders" />
+    <AssociationSet Name="FK_iiOrders_iiCars" Association="user100_dbModel.FK_iiOrders_iiCars">
+      <End Role="iiCars" EntitySet="iiCars" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiOrders_iiStatus_order" Association="user100_dbModel.FK_iiOrders_iiStatus_order">
+      <End Role="iiStatus_order" EntitySet="iiStatus_order" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiOrders_iiUsers" Association="user100_dbModel.FK_iiOrders_iiUsers">
+      <End Role="iiUsers" EntitySet="iiUsers" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiOrders_iiUsers1" Association="user100_dbModel.FK_iiOrders_iiUsers1">
+      <End Role="iiUsers" EntitySet="iiUsers" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="iiCars">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vin" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="mileage" Type="Int32" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="photo_path" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="id_color" Type="Int32" Nullable="false" />
+    <Property Name="id_model" Type="Int32" Nullable="false" />
+    <Property Name="id_status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="iiColors" Relationship="user100_dbModel.FK_iiCars_iiColors" FromRole="iiCars" ToRole="iiColors" />
+    <NavigationProperty Name="iiStatus_car" Relationship="user100_dbModel.FK_iiCars_iiStatus_car" FromRole="iiCars" ToRole="iiStatus_car" />
+    <NavigationProperty Name="iiModels" Relationship="user100_dbModel.FK_iiCars_iiModels1" FromRole="iiCars" ToRole="iiModels" />
+    <NavigationProperty Name="iiOrders" Relationship="user100_dbModel.FK_iiOrders_iiCars" FromRole="iiCars" ToRole="iiOrders" />
+  </EntityType>
+  <Association Name="FK_iiCars_iiColors">
+    <End Type="user100_dbModel.iiColors" Role="iiColors" Multiplicity="1" />
+    <End Type="user100_dbModel.iiCars" Role="iiCars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiColors">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiCars">
+        <PropertyRef Name="id_color" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiCars_iiStatus_car">
+    <End Type="user100_dbModel.iiStatus_car" Role="iiStatus_car" Multiplicity="1" />
+    <End Type="user100_dbModel.iiCars" Role="iiCars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiStatus_car">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiCars">
+        <PropertyRef Name="id_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="iiModels">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="model" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="year" Type="Int32" Nullable="false" />
+    <Property Name="id_make" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="iiCars" Relationship="user100_dbModel.FK_iiCars_iiModels1" FromRole="iiModels" ToRole="iiCars" />
+    <NavigationProperty Name="iiMakes" Relationship="user100_dbModel.FK_iiModels_iiMakes" FromRole="iiModels" ToRole="iiMakes" />
+  </EntityType>
+  <Association Name="FK_iiCars_iiModels1">
+    <End Type="user100_dbModel.iiModels" Role="iiModels" Multiplicity="1" />
+    <End Type="user100_dbModel.iiCars" Role="iiCars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiModels">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiCars">
+        <PropertyRef Name="id_model" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiModels_iiMakes">
+    <End Type="user100_dbModel.iiMakes" Role="iiMakes" Multiplicity="1" />
+    <End Type="user100_dbModel.iiModels" Role="iiModels" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiMakes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiModels">
+        <PropertyRef Name="id_make" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="iiOrders">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="order_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="id_car" Type="Int32" Nullable="false" />
+    <Property Name="id_status" Type="Int32" Nullable="false" />
+    <Property Name="id_client" Type="Int32" Nullable="false" />
+    <Property Name="id_manager" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="iiCars" Relationship="user100_dbModel.FK_iiOrders_iiCars" FromRole="iiOrders" ToRole="iiCars" />
+    <NavigationProperty Name="iiStatus_order" Relationship="user100_dbModel.FK_iiOrders_iiStatus_order" FromRole="iiOrders" ToRole="iiStatus_order" />
+    <NavigationProperty Name="iiUsers" Relationship="user100_dbModel.FK_iiOrders_iiUsers" FromRole="iiOrders" ToRole="iiUsers" />
+    <NavigationProperty Name="iiUsers1" Relationship="user100_dbModel.FK_iiOrders_iiUsers1" FromRole="iiOrders" ToRole="iiUsers" />
+  </EntityType>
+  <Association Name="FK_iiOrders_iiCars">
+    <End Type="user100_dbModel.iiCars" Role="iiCars" Multiplicity="1" />
+    <End Type="user100_dbModel.iiOrders" Role="iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiCars">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_car" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiOrders_iiStatus_order">
+    <End Type="user100_dbModel.iiStatus_order" Role="iiStatus_order" Multiplicity="1" />
+    <End Type="user100_dbModel.iiOrders" Role="iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiStatus_order">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiOrders_iiUsers">
+    <End Type="user100_dbModel.iiUsers" Role="iiUsers" Multiplicity="1" />
+    <End Type="user100_dbModel.iiOrders" Role="iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiUsers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_manager" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiOrders_iiUsers1">
+    <End Type="user100_dbModel.iiUsers" Role="iiUsers" Multiplicity="1" />
+    <End Type="user100_dbModel.iiOrders" Role="iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiUsers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

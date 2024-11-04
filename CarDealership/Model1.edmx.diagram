@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9943e533efd8485a8e52ec08970eebdc" Name="Diagram1">
+        <EntityTypeShape EntityType="user100_dbModel.iiColors" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user100_dbModel.iiMakes" Width="1.5" PointX="1.5" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user100_dbModel.iiPrestige" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user100_dbModel.iiRoles" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user100_dbModel.iiStatus_car" Width="1.5" PointX="0.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user100_dbModel.iiStatus_order" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user100_dbModel.iiUsers" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="user100_dbModel.FK_iiUsers_iiPrestige" ManuallyRouted="false" />
+        <AssociationConnector Association="user100_dbModel.FK_iiUsers_iiRoles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="user100_dbModel.iiCars" Width="1.5" PointX="5.125" PointY="8.625" />
+        <AssociationConnector Association="user100_dbModel.FK_iiCars_iiColors" />
+        <AssociationConnector Association="user100_dbModel.FK_iiCars_iiStatus_car" />
+        <EntityTypeShape EntityType="user100_dbModel.iiModels" Width="1.5" PointX="1" PointY="11" />
+        <AssociationConnector Association="user100_dbModel.FK_iiCars_iiModels1" />
+        <AssociationConnector Association="user100_dbModel.FK_iiModels_iiMakes" />
+        <EntityTypeShape EntityType="user100_dbModel.iiOrders" Width="1.5" PointX="6.25" PointY="3.875" />
+        <AssociationConnector Association="user100_dbModel.FK_iiOrders_iiCars" />
+        <AssociationConnector Association="user100_dbModel.FK_iiOrders_iiStatus_order" />
+        <AssociationConnector Association="user100_dbModel.FK_iiOrders_iiUsers" />
+        <AssociationConnector Association="user100_dbModel.FK_iiOrders_iiUsers1" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

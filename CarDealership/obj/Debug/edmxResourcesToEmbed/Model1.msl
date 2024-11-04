@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище user100_dbModelContainer" CdmEntityContainer="user100_dbEntities">
+    <EntitySetMapping Name="iiColors">
+      <EntityTypeMapping TypeName="user100_dbModel.iiColors">
+        <MappingFragment StoreEntitySet="iiColors">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="color" ColumnName="color" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiMakes">
+      <EntityTypeMapping TypeName="user100_dbModel.iiMakes">
+        <MappingFragment StoreEntitySet="iiMakes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="make" ColumnName="make" />
+          <ScalarProperty Name="country" ColumnName="country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiPrestige">
+      <EntityTypeMapping TypeName="user100_dbModel.iiPrestige">
+        <MappingFragment StoreEntitySet="iiPrestige">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiRoles">
+      <EntityTypeMapping TypeName="user100_dbModel.iiRoles">
+        <MappingFragment StoreEntitySet="iiRoles">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiStatus_car">
+      <EntityTypeMapping TypeName="user100_dbModel.iiStatus_car">
+        <MappingFragment StoreEntitySet="iiStatus_car">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiStatus_order">
+      <EntityTypeMapping TypeName="user100_dbModel.iiStatus_order">
+        <MappingFragment StoreEntitySet="iiStatus_order">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiUsers">
+      <EntityTypeMapping TypeName="user100_dbModel.iiUsers">
+        <MappingFragment StoreEntitySet="iiUsers">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="patronymic" ColumnName="patronymic" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="id_prestige" ColumnName="id_prestige" />
+          <ScalarProperty Name="id_role" ColumnName="id_role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiCars">
+      <EntityTypeMapping TypeName="user100_dbModel.iiCars">
+        <MappingFragment StoreEntitySet="iiCars">
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="id_model" ColumnName="id_model" />
+          <ScalarProperty Name="id_color" ColumnName="id_color" />
+          <ScalarProperty Name="photo_path" ColumnName="photo_path" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="mileage" ColumnName="mileage" />
+          <ScalarProperty Name="vin" ColumnName="vin" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiModels">
+      <EntityTypeMapping TypeName="user100_dbModel.iiModels">
+        <MappingFragment StoreEntitySet="iiModels">
+          <ScalarProperty Name="id_make" ColumnName="id_make" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iiOrders">
+      <EntityTypeMapping TypeName="user100_dbModel.iiOrders">
+        <MappingFragment StoreEntitySet="iiOrders">
+          <ScalarProperty Name="id_manager" ColumnName="id_manager" />
+          <ScalarProperty Name="id_client" ColumnName="id_client" />
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="id_car" ColumnName="id_car" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="order_date" ColumnName="order_date" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,122 @@
+﻿<Page x:Class="CarDealership.AdminMakes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CarDealership"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1200"
+      Title="AdminMakes">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="83"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid 
+            x:Name="MakesDataGrid" 
+            SelectionChanged="MakesDataGrid_SelectionChanged"
+            Grid.Column="0" 
+            Grid.Row="1" 
+            Grid.ColumnSpan="3"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="30"
+            Background="White" 
+            BorderBrush="Gray" 
+            BorderThickness="1"
+            Height="500" 
+            Width="1100" 
+            AutoGenerateColumns="False"
+            ColumnHeaderHeight="40"
+            RowHeight="35"
+            GridLinesVisibility="None"
+            CanUserResizeColumns="False"
+            CanUserResizeRows="False"
+            HeadersVisibility="Column">
+
+            <!-- Стилизация заголовков столбцов -->
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#E74C3C" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="FontFamily" Value="Century Gothic" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="FontSize" Value="16" />
+                    <Setter Property="BorderBrush" Value="White" />
+                    <Setter Property="BorderThickness" Value="0,0,1,1" />
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <!-- Стилизация строк -->
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="FontSize" Value="13" />
+                    <Setter Property="Background" Value="White" />
+                    <Setter Property="BorderBrush" Value="LightGray" />
+                    <Setter Property="BorderThickness" Value="0,0,0,1" />
+                    <Setter Property="HorizontalContentAlignment" Value="Left" />
+                </Style>
+            </DataGrid.RowStyle>
+
+            <!-- Стилизация ячеек со скругленными углами -->
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="Padding" Value="0" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="DataGridCell">
+                                <Border 
+                            Background="{TemplateBinding Background}" 
+                            BorderBrush="LightGray"
+                            BorderThickness="1"
+                            CornerRadius="10" 
+                            Padding="5">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Price}" Value="High">
+                            <Setter Property="Background" Value="Salmon" />
+                            <Setter Property="Foreground" Value="White" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+
+            <!-- Определение столбцов -->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding id, Mode=OneWay}" Width="50" />
+                <DataGridTextColumn Header="Название марки" Binding="{Binding make, Mode=OneWay}" Width="*" />
+                <DataGridTextColumn Header="Страна-производитель" Binding="{Binding country, Mode=OneWay}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2">
+
+            <Button x:Name="AddButton" Grid.Column="0" Content="Добавить" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left"
+                FontSize="24" FontFamily="Century Gothic" Height="50px" Width="150px" Margin="150,0,0,0"
+                Grid.Row="4" Click="AddButton_Click"/>
+
+            <Button x:Name="ChangeButton" Grid.Column="0" Content="Изменить" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center"
+                FontSize="24" FontFamily="Century Gothic" Height="50px" Width="150px" Margin="0,0,50,0"
+                Grid.Row="4" Click="ChangeButton_Click"/>
+
+            <Button x:Name="DeleteButton" Grid.Column="0" Content="Удалить" 
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Right"
+                FontSize="24" FontFamily="Century Gothic" Height="50px" Width="150px" Margin="0,0,200,0"
+                Grid.Row="4" Click="DeleteButton_Click"/>
+        </Grid>
+    </Grid>
+</Page>

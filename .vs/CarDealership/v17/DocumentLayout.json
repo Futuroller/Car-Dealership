@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|e:\\programming\\\u0441# dev\\\u043C\u0430\u043A\u0430\u0440\u043E\u0432 \u043A\u043F\\cardealership\\cardealership\\clientordershistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\clientordershistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\clientordershistory.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\clientordershistory.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\client.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\client.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\client.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\client.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\managerclientsordershistory.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\managerclientsordershistory.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\managerclientsordershistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\managerclientsordershistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\clientcarbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\clientcarbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\clientcarbooking.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\clientcarbooking.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\managercars.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\managercars.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\managercars.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\managercars.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\clientcars.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\clientcars.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\cardealership\\clientcars.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAD508C8-7352-480E-A568-CBADF3961E6A}|CarDealership\\CarDealership.csproj|solutionrelative:cardealership\\clientcars.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 205,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\Client.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\Client.xaml.cs",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\Client.xaml.cs",
+              "RelativeToolTip": "CarDealership\\Client.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:43:02.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientOrdersHistory.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientOrdersHistory.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\ClientOrdersHistory.xaml.cs",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientOrdersHistory.xaml.cs",
+              "RelativeToolTip": "CarDealership\\ClientOrdersHistory.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowDsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:39:29.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManagerClientsOrdersHistory.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerClientsOrdersHistory.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\ManagerClientsOrdersHistory.xaml.cs",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerClientsOrdersHistory.xaml.cs",
+              "RelativeToolTip": "CarDealership\\ManagerClientsOrdersHistory.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:39:20.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientOrdersHistory.xaml",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientOrdersHistory.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\ClientOrdersHistory.xaml",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientOrdersHistory.xaml",
+              "RelativeToolTip": "CarDealership\\ClientOrdersHistory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T20:38:23.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagerClientsOrdersHistory.xaml",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerClientsOrdersHistory.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\ManagerClientsOrdersHistory.xaml",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerClientsOrdersHistory.xaml",
+              "RelativeToolTip": "CarDealership\\ManagerClientsOrdersHistory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T20:37:42.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManagerCars.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerCars.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\ManagerCars.xaml.cs",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerCars.xaml.cs",
+              "RelativeToolTip": "CarDealership\\ManagerCars.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA5wEAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:28:33.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManagerCars.xaml",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerCars.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\ManagerCars.xaml",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ManagerCars.xaml",
+              "RelativeToolTip": "CarDealership\\ManagerCars.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T20:28:32.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientCarBooking.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCarBooking.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\ClientCarBooking.xaml.cs",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCarBooking.xaml.cs",
+              "RelativeToolTip": "CarDealership\\ClientCarBooking.xaml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAewDMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:07:48.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientCarBooking.xaml",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCarBooking.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\ClientCarBooking.xaml",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCarBooking.xaml",
+              "RelativeToolTip": "CarDealership\\ClientCarBooking.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T18:39:16.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.xaml",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\Client.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\Client.xaml",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\Client.xaml",
+              "RelativeToolTip": "CarDealership\\Client.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-03T15:12:38.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientCars.xaml",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCars.xaml",
+              "RelativeDocumentMoniker": "CarDealership\\ClientCars.xaml",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCars.xaml",
+              "RelativeToolTip": "CarDealership\\ClientCars.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T18:12:36.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClientCars.xaml.cs",
+              "DocumentMoniker": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCars.xaml.cs",
+              "RelativeDocumentMoniker": "CarDealership\\ClientCars.xaml.cs",
+              "ToolTip": "E:\\Programming\\\u0421# Dev\\\u041C\u0430\u043A\u0430\u0440\u043E\u0432 \u041A\u041F\\CarDealership\\CarDealership\\ClientCars.xaml.cs",
+              "RelativeToolTip": "CarDealership\\ClientCars.xaml.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAYwJ4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:42:33.123Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

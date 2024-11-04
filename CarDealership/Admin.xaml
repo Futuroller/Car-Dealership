@@ -1,0 +1,58 @@
+﻿<Window x:Class="CarDealership.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarDealership"
+        mc:Ignorable="d"
+                Title="Администратор" Height="820" Width="1600" Background="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="83"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="950"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.ColumnSpan="3">
+            <Rectangle Height="80" VerticalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="3">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#E74C3C" Offset="0.0" />
+                        <GradientStop Color="#2C3E50" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Label Content="Администратор" Foreground="White" FontSize="30" FontFamily="Century Gothic" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Image Source="Resources/Logo.png" Width="60" Height="60" Margin="20,10,0,10" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left"></Image>
+            <Label x:Name="FILabel" Content="Имя фамилия" Foreground="White" FontSize="28" FontFamily="Century Gothic" Grid.Column="3" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Margin="0,0,50,0"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="133*"/>
+                <RowDefinition Height="229*"/>
+            </Grid.RowDefinitions>
+            <Rectangle Fill="#2C3E50" Grid.RowSpan="2"/>
+            <Label Content="Таблицы" Foreground="White" FontSize="30" FontFamily="Century Gothic" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+            <RadioButton x:Name="MakesRB" VerticalAlignment="Top" VerticalContentAlignment="Center" Foreground="White" FontSize="20" FontFamily="Century Gothic" Margin="30,150,0,0" Grid.RowSpan="2" Checked="AnyRB_Checked" Cursor="Hand">Makes</RadioButton>
+            <RadioButton x:Name="ModelsRB" VerticalAlignment="Top" VerticalContentAlignment="Center" Foreground="White" FontSize="20" FontFamily="Century Gothic" Margin="30,200,0,0" Grid.RowSpan="2" Checked="AnyRB_Checked" Cursor="Hand">Models</RadioButton>
+            <RadioButton x:Name="ColorsRB" VerticalAlignment="Top" VerticalContentAlignment="Center" Foreground="White" FontSize="20" FontFamily="Century Gothic" Margin="30,250,0,0" Grid.RowSpan="2" Checked="AnyRB_Checked" Cursor="Hand">Colors</RadioButton>
+            <RadioButton x:Name="CarsRB" VerticalAlignment="Top" VerticalContentAlignment="Center" Foreground="White" FontSize="20" FontFamily="Century Gothic" Margin="30,300,0,0" Grid.RowSpan="2" Checked="AnyRB_Checked" Cursor="Hand">Cars</RadioButton>
+            <RadioButton x:Name="OrdersRB" VerticalAlignment="Top" VerticalContentAlignment="Center" Foreground="White" FontSize="20" FontFamily="Century Gothic" Margin="30,350,0,0" Grid.RowSpan="2" Checked="AnyRB_Checked" Cursor="Hand">Orders</RadioButton>
+            <RadioButton x:Name="UsersRB" VerticalAlignment="Top" VerticalContentAlignment="Center" Foreground="White" FontSize="20" FontFamily="Century Gothic" Margin="30,400,0,0" Grid.RowSpan="2" Checked="AnyRB_Checked" Cursor="Hand">Users</RadioButton>
+        </Grid>
+
+        <Frame Name="MainFrame" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" NavigationUIVisibility="Hidden"/>
+
+        <Button x:Name="BackButton" Grid.Column="1" Content="Назад" 
+            VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left"
+            FontSize="24" FontFamily="Century Gothic" Height="50px" Width="200px" Margin="30,0,0,0"
+            Grid.Row="4" Click="BackButton_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище user100_dbModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="iiCars">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="vin" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="mileage" Type="int" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+    <Property Name="photo_path" Type="varchar(max)" />
+    <Property Name="id_color" Type="int" Nullable="false" />
+    <Property Name="id_model" Type="int" Nullable="false" />
+    <Property Name="id_status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiColors">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="color" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiMakes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="make" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="country" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiModels">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="model" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="year" Type="int" Nullable="false" />
+    <Property Name="id_make" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiOrders">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="order_date" Type="date" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+    <Property Name="id_car" Type="int" Nullable="false" />
+    <Property Name="id_status" Type="int" Nullable="false" />
+    <Property Name="id_client" Type="int" Nullable="false" />
+    <Property Name="id_manager" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiPrestige">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="iiRoles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="role" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiStatus_car">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiStatus_order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iiUsers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="lastname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="patronymic" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="id_prestige" Type="int" />
+    <Property Name="id_role" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_iiCars_iiColors">
+    <End Role="iiColors" Type="Self.iiColors" Multiplicity="1" />
+    <End Role="iiCars" Type="Self.iiCars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiColors">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiCars">
+        <PropertyRef Name="id_color" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiCars_iiModels1">
+    <End Role="iiModels" Type="Self.iiModels" Multiplicity="1" />
+    <End Role="iiCars" Type="Self.iiCars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiModels">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiCars">
+        <PropertyRef Name="id_model" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiCars_iiStatus_car">
+    <End Role="iiStatus_car" Type="Self.iiStatus_car" Multiplicity="1" />
+    <End Role="iiCars" Type="Self.iiCars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiStatus_car">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiCars">
+        <PropertyRef Name="id_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiModels_iiMakes">
+    <End Role="iiMakes" Type="Self.iiMakes" Multiplicity="1" />
+    <End Role="iiModels" Type="Self.iiModels" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiMakes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiModels">
+        <PropertyRef Name="id_make" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiOrders_iiCars">
+    <End Role="iiCars" Type="Self.iiCars" Multiplicity="1" />
+    <End Role="iiOrders" Type="Self.iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiCars">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_car" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiOrders_iiStatus_order">
+    <End Role="iiStatus_order" Type="Self.iiStatus_order" Multiplicity="1" />
+    <End Role="iiOrders" Type="Self.iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiStatus_order">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiOrders_iiUsers">
+    <End Role="iiUsers" Type="Self.iiUsers" Multiplicity="1" />
+    <End Role="iiOrders" Type="Self.iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiUsers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_manager" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiOrders_iiUsers1">
+    <End Role="iiUsers" Type="Self.iiUsers" Multiplicity="1" />
+    <End Role="iiOrders" Type="Self.iiOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiUsers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiOrders">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiUsers_iiPrestige">
+    <End Role="iiPrestige" Type="Self.iiPrestige" Multiplicity="0..1" />
+    <End Role="iiUsers" Type="Self.iiUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiPrestige">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiUsers">
+        <PropertyRef Name="id_prestige" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_iiUsers_iiRoles">
+    <End Role="iiRoles" Type="Self.iiRoles" Multiplicity="1" />
+    <End Role="iiUsers" Type="Self.iiUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iiRoles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="iiUsers">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище user100_dbModelContainer">
+    <EntitySet Name="iiCars" EntityType="Self.iiCars" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiColors" EntityType="Self.iiColors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiMakes" EntityType="Self.iiMakes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiModels" EntityType="Self.iiModels" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiOrders" EntityType="Self.iiOrders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiPrestige" EntityType="Self.iiPrestige" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiRoles" EntityType="Self.iiRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiStatus_car" EntityType="Self.iiStatus_car" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiStatus_order" EntityType="Self.iiStatus_order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iiUsers" EntityType="Self.iiUsers" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_iiCars_iiColors" Association="Self.FK_iiCars_iiColors">
+      <End Role="iiColors" EntitySet="iiColors" />
+      <End Role="iiCars" EntitySet="iiCars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiCars_iiModels1" Association="Self.FK_iiCars_iiModels1">
+      <End Role="iiModels" EntitySet="iiModels" />
+      <End Role="iiCars" EntitySet="iiCars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiCars_iiStatus_car" Association="Self.FK_iiCars_iiStatus_car">
+      <End Role="iiStatus_car" EntitySet="iiStatus_car" />
+      <End Role="iiCars" EntitySet="iiCars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiModels_iiMakes" Association="Self.FK_iiModels_iiMakes">
+      <End Role="iiMakes" EntitySet="iiMakes" />
+      <End Role="iiModels" EntitySet="iiModels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiOrders_iiCars" Association="Self.FK_iiOrders_iiCars">
+      <End Role="iiCars" EntitySet="iiCars" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiOrders_iiStatus_order" Association="Self.FK_iiOrders_iiStatus_order">
+      <End Role="iiStatus_order" EntitySet="iiStatus_order" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiOrders_iiUsers" Association="Self.FK_iiOrders_iiUsers">
+      <End Role="iiUsers" EntitySet="iiUsers" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiOrders_iiUsers1" Association="Self.FK_iiOrders_iiUsers1">
+      <End Role="iiUsers" EntitySet="iiUsers" />
+      <End Role="iiOrders" EntitySet="iiOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiUsers_iiPrestige" Association="Self.FK_iiUsers_iiPrestige">
+      <End Role="iiPrestige" EntitySet="iiPrestige" />
+      <End Role="iiUsers" EntitySet="iiUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_iiUsers_iiRoles" Association="Self.FK_iiUsers_iiRoles">
+      <End Role="iiRoles" EntitySet="iiRoles" />
+      <End Role="iiUsers" EntitySet="iiUsers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

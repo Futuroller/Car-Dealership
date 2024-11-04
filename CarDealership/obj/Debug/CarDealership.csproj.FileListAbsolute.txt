@@ -1,0 +1,175 @@
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\App.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\App.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDeale.56C0A704.Up2Date
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\Manager.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\Manager.baml
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+E:\Макаров КП\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\Manager.g.cs
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\App.g.cs
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\App.baml
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\Manager.baml
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDeale.56C0A704.Up2Date
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+E:\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerCars.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerCars.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Manager.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerCars.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\App.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\App.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Manager.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerCars.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDeale.56C0A704.Up2Date
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrders.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrders.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrderDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrderDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeOrderDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeOrderDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeClientDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClients.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeClientDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClients.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClientsOrdersHistory.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClientsOrdersHistory.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerPopularModels.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerPopularModels.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Client.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientCars.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Client.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientCars.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Admin.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakes.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Admin.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakes.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesAddDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesAddDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesChangeDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesChangeDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\Admin.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakes.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesAddDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesChangeDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\Client.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientCars.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeClientDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeOrderDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClients.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClientsOrdersHistory.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrderDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrders.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerPopularModels.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\Admin.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakes.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesAddDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminMakesChangeDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\Client.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientCars.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeClientDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerChangeOrderDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClients.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerClientsOrdersHistory.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrderDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerOrders.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\ManagerPopularModels.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModels.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsAddDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsChangeDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModels.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsAddDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsChangeDialog.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColors.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColorsAddDialog.g.cs
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColors.baml
+D:\ИС1-41\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColorsAddDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColors.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColorsAddDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModels.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsAddDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsChangeDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColors.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColorsAddDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModels.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsAddDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminModelsChangeDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColorsChangeDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminCars.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminCarsAddDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminCarsChangeDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminColorsChangeDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminCars.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminCarsAddDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminCarsChangeDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminOrders.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminOrdersAddDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminOrdersChangeDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminOrders.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminOrdersAddDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminOrdersChangeDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminUsers.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminUsers.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminUsersAddDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminUsersChangeDialog.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminUsersAddDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\AdminUsersChangeDialog.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientCarBooking.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientCarBooking.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientOrdersHistory.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientOrdersHistory.baml
