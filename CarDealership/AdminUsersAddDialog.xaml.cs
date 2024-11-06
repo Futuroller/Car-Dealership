@@ -72,8 +72,8 @@ namespace CarDealership
                         patronymic = PatronymicTextBox.Text,
                         address = AddressPathTextBox.Text,
                         phone = PhoneTextBox.Text,
-                        login = PhoneTextBox.Text,
-                        password = PhoneTextBox.Text,
+                        login = LoginTextBox.Text,
+                        password = PasswordTextBox.Text,
                         id_prestige = Convert.ToInt32(PrestigeCB.SelectedValue),
                         id_role = Convert.ToInt32(RoleCB.SelectedValue)
                     };

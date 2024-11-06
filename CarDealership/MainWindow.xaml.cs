@@ -30,7 +30,9 @@ namespace CarDealership
 
         private void IHaveNoAccountLabel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-
+            var form = new Registration();
+            form.Show();
+            this.Hide();
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)

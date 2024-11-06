@@ -46,12 +46,12 @@
             <PasswordBox x:Name="PasswordTextBox" Height="60px" Margin="10px" VerticalContentAlignment="Center" 
                          FontSize="20" FontFamily="Sergoe UI" VerticalAlignment="Bottom"></PasswordBox>
         </Grid>
-        
+
         <Button x:Name="LoginButton" Grid.Column="1" Content="Войти" 
                 VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                 FontSize="24" FontFamily="Sergoe UI" Height="50px" Width="300px"
                 Grid.Row="4" Click="LoginButton_Click"/>
-        <Label x:Name="IHaveNoAccountLabel" Content="Я ещё не зарегистрирован" Foreground="Black" FontSize="20" FontFamily="Sergoe UI"
+        <TextBlock x:Name="IHaveNoAccountLabel" TextDecorations="Underline" Text="Я ещё не зарегистрирован" Foreground="Black" FontSize="20" FontFamily="Sergoe UI"
                   HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="10" Grid.Column="1" FontStyle="Italic" Cursor="Hand" Margin="10" MouseLeftButtonDown="IHaveNoAccountLabel_MouseLeftButtonDown"/>
     </Grid>
 </Window>

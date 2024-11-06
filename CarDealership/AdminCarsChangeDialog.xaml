@@ -44,7 +44,7 @@
         <TextBox x:Name="VINTextBox" Height="50px" Margin="10px" Grid.Column="1" Grid.Row="1" VerticalContentAlignment="Center" FontSize="20" FontFamily="Century Gothic" VerticalAlignment="Center" MaxLength="17"/>
 
         <Label Content="Пробег" FontSize="24" FontFamily="Century Gothic" Grid.Column="0" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right"/>
-        <TextBox x:Name="MileageTextBox" Height="50px" Margin="10px" Grid.Column="1" Grid.Row="2" VerticalContentAlignment="Center" FontSize="20" FontFamily="Century Gothic" VerticalAlignment="Center" MaxLength="4" PreviewTextInput="AnyTB_PreviewTextInput"/>
+        <TextBox x:Name="MileageTextBox" Height="50px" Margin="10px" Grid.Column="1" Grid.Row="2" VerticalContentAlignment="Center" FontSize="20" FontFamily="Century Gothic" VerticalAlignment="Center" PreviewTextInput="AnyTB_PreviewTextInput"/>
 
         <Label Content="Цена" FontSize="24" FontFamily="Century Gothic" Grid.Column="0" Grid.Row="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right"/>
         <TextBox x:Name="PriceTextBox" Height="50px" Margin="10px" Grid.Column="1" Grid.Row="3" VerticalContentAlignment="Center" FontSize="20" FontFamily="Century Gothic" VerticalAlignment="Center" PreviewTextInput="AnyTB_PreviewTextInput"/>

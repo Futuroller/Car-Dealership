@@ -173,3 +173,5 @@ E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug
 E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientCarBooking.baml
 E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientOrdersHistory.g.cs
 E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\ClientOrdersHistory.baml
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Registration.g.cs
+E:\Programming\С# Dev\Макаров КП\CarDealership\CarDealership\obj\Debug\Registration.baml
