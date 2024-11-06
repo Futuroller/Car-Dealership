@@ -44,7 +44,7 @@ namespace CarDealership
 
                         if (currentLogin == null)
                         {
-                            if (PhoneTextBox.Text.Length != 11)
+                            if (PhoneTextBox.Text.Length == 11)
                             {
                                 if (PasswordTextBox.Password.Length >= 8)
                                 {
